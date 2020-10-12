@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+a=true
+b=false
+
+if [[ $a || $b ]];then
+    echo "a or b is true"
+fi
+
+if [[ $a && $b ]];then
+    echo "both a and b are true"
+fi    	
